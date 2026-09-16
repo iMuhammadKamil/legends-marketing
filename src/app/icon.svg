@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <radialGradient id="iconGlow" cx="45%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#1e7e5d" />
+      <stop offset="45%" stop-color="#0f523c" />
+      <stop offset="100%" stop-color="#041f17" />
+    </radialGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#iconGlow)" stroke="rgba(226,200,120,0.5)" stroke-width="1"/>
+  <!-- Elegant Script 'L' -->
+  <path d="M 17 38 C 14 38 13 36 14 33 C 15 30 18 23 21 16 C 22 13 23 12 25 12 C 26 12 26 14 25 18 C 23 24 19 33 18 36 C 18 37 19 38 21 37 C 24 36 28 34 30 33 C 31 33 32 34 31 35 C 27 37 22 39 18 39 Z" fill="#ffffff"/>
+  <!-- Script Flourish -->
+  <path d="M 28 34 C 33 32 38 31 46 29 C 48 29 48 30 46 31 C 37 34 30 36 24 37 C 23 37 23 36 25 35 C 26 34 27 34 28 34 Z" fill="#ffffff" opacity="0.9"/>
+</svg>

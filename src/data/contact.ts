@@ -1,0 +1,27 @@
+export const contact = {
+  company: "Legends Marketing",
+  tagline: "Turning Properties into Profitable Opportunities",
+  business: [
+    "Real Estate Sales & Marketing",
+    "Property Investment Consultancy",
+    "Digital Marketing",
+    "Project Marketing",
+    "Investor Advisory",
+  ],
+  registration: "Registered with Rawalpindi Chamber of Commerce",
+  phone: "0323 1235444",
+  phoneTel: "+923231235444",
+  whatsapp: "923231235444",
+  email: "legends.marketing.official@gmail.com",
+  officeAddress: "Premier Choice, Bahria Food Street, Phase 7, Bahria Town, Islamabad",
+  city: "Rawalpindi",
+  country: "Pakistan",
+  hours: "Mon - Sat: 10:00 AM - 7:00 PM",
+  mapUrl: "https://maps.google.com/?q=Premier+Choice+Food+Street+Phase+7+Bahria+Town+Islamabad",
+  social: {
+    facebook: "https://facebook.com/legendsmarketing",
+    instagram: "https://instagram.com/legendsmarketing",
+    youtube: "https://youtube.com/legendsmarketing",
+    linkedin: "https://linkedin.com/company/legendsmarketing",
+  },
+} as const;

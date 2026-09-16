@@ -1,0 +1,47 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0a3d2e"/>
+      <stop offset="1" stop-color="#06231b"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e2c878"/>
+      <stop offset="1" stop-color="#a8843a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#sky)"/>
+  <circle cx="1280" cy="220" r="90" fill="url(#gold)" opacity="0.85"/>
+  <circle cx="1280" cy="220" r="130" fill="none" stroke="#c9a24b" stroke-width="2" opacity="0.4"/>
+  <circle cx="1280" cy="220" r="180" fill="none" stroke="#c9a24b" stroke-width="1.5" opacity="0.25"/>
+  <g fill="#0d4a36" opacity="0.9">
+    <rect x="120" y="620" width="70" height="280"/>
+    <rect x="210" y="560" width="90" height="340"/>
+    <rect x="330" y="640" width="60" height="260"/>
+    <rect x="410" y="500" width="80" height="400"/>
+    <rect x="520" y="610" width="70" height="290"/>
+    <rect x="620" y="540" width="100" height="360"/>
+    <rect x="750" y="630" width="65" height="270"/>
+    <rect x="850" y="520" width="85" height="380"/>
+    <rect x="980" y="600" width="70" height="300"/>
+    <rect x="1080" y="550" width="95" height="350"/>
+    <rect x="1200" y="640" width="60" height="260"/>
+    <rect x="1300" y="510" width="80" height="390"/>
+    <rect x="1420" y="600" width="75" height="300"/>
+  </g>
+  <g fill="#17684e">
+    <rect x="160" y="680" width="45" height="220"/>
+    <rect x="260" y="640" width="60" height="260"/>
+    <rect x="380" y="700" width="40" height="200"/>
+    <rect x="470" y="600" width="55" height="300"/>
+    <rect x="590" y="680" width="45" height="220"/>
+    <rect x="690" y="620" width="65" height="280"/>
+    <rect x="820" y="700" width="45" height="200"/>
+    <rect x="930" y="610" width="55" height="290"/>
+    <rect x="1050" y="690" width="45" height="210"/>
+    <rect x="1150" y="640" width="60" height="260"/>
+    <rect x="1280" y="700" width="40" height="200"/>
+    <rect x="1370" y="620" width="50" height="280"/>
+    <rect x="1490" y="680" width="40" height="220"/>
+  </g>
+  <rect x="0" y="880" width="1600" height="20" fill="url(#gold)" opacity="0.9"/>
+</svg>

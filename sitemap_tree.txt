@@ -1,0 +1,231 @@
+LEGENDS MARKETING - Website Sitemap (Tree Structure)
+====================================================
+
+LEGENDS MARKETING
+|
++-- HOME
+|   +-- Hero Section
+|   +-- Featured Projects
+|   +-- Why Invest With Legends
+|   +-- Investment Opportunities
+|   +-- Market Insights
+|   +-- Client Testimonials
+|   +-- Strategic Partners
+|   +-- CTA: Find Your Investment
+|
++-- ABOUT US
+|   +-- Company Profile
+|   +-- Our Story
+|   +-- Mission
+|   +-- Vision
+|   +-- Core Values
+|   +-- Leadership
+|   +-- Why Legends Marketing
+|   +-- Registration & Credentials
+|   +-- Authorized Partnerships
+|
++-- PROJECTS
+|   +-- All Projects
+|   +-- ParkView City Islamabad
+|   +-- Blue World City
+|   +-- Hashoo Real Estate
+|   +-- Faisal Town
+|   +-- Premier Choice International
+|   +-- Saffron City Islamabad
+|   +-- Capital Smart City
+|
++-- INVESTOR SERVICES
+|   +-- Investment Consultancy
+|   +-- Property Buying
+|   +-- Property Selling
+|   +-- Portfolio Planning
+|   +-- Market Research
+|   +-- Project Selection
+|   +-- Resale Assistance
+|   +-- Investment Advisory
+|
++-- INVESTMENT TOOLS
+|   +-- ROI Calculator
+|   +-- Installment Calculator
+|   +-- Investment Budget Calculator
+|   +-- Project Comparison
+|   +-- Property Finder
+|   +-- Investment Quiz
+|
++-- OVERSEAS PAKISTANIS
+|   +-- Why Invest in Pakistan
+|   +-- Overseas Investment Guide
+|   +-- Documentation
+|   +-- Remote Booking Process
+|   +-- Payment Methods
+|   +-- Power of Attorney Guide
+|   +-- Overseas Advisor
+|   +-- WhatsApp Consultation
+|
++-- MARKET INSIGHTS
+|   +-- Real Estate News
+|   +-- Islamabad Property Market
+|   +-- Rawalpindi Property Market
+|   +-- Investment Guides
+|   +-- Project Comparisons
+|   +-- Market Reports
+|   +-- Price Updates
+|   +-- Development Updates
+|   +-- Videos
+|
++-- MEDIA
+|   +-- News
+|   +-- Blog
+|   +-- Videos
+|   +-- Project Gallery
+|   +-- Events
+|   +-- Press & PR
+|
++-- CONTACT
+    +-- Office Location
+    +-- Google Maps
+    +-- Contact Form
+    +-- WhatsApp
+    +-- Call
+    +-- Book Consultation
+
+====================================================
+PROJECT DETAIL PAGE STRUCTURE (Each Project)
+====================================================
+
+PROJECT_NAME/
+|
++-- Overview
++-- Location
++-- Master Plan
++-- Blocks / Sectors
++-- Development Updates
++-- Payment Plans
++-- Current Price / Availability
++-- Investment Highlights
++-- Amenities
++-- Gallery
++-- FAQs
++-- Legal / Approval Information
++-- Advisor Details
++-- WhatsApp CTA
++-- Booking / Enquiry Form
+
+====================================================
+INVESTMENT TOOLS STRUCTURE
+====================================================
+
+INVESTMENT_TOOLS/
+|
++-- ROI Calculator
+|   +-- Inputs
+|   |   +-- Investment Amount
+|   |   +-- Holding Period
+|   |   +-- Expected Annual Growth
+|   +-- Outputs
+|       +-- Estimated Future Value
+|       +-- Estimated Capital Gain
+|       +-- Estimated ROI
+|
++-- Project Comparison
+|   +-- Location
+|   +-- Legal / Approval Status
+|   +-- Plot Sizes
+|   +-- Payment Plan
+|   +-- Development
+|   +-- Investment Profile
+
+====================================================
+LEAD GENERATION STRUCTURE
+====================================================
+
+LEAD_GENERATION/
+|
++-- WhatsApp Lead Automation
+|   +-- Capture Fields
+|   |   +-- Name
+|   |   +-- Phone
+|   |   +-- Project
+|   |   +-- Budget
+|   |   +-- Investment Type
+|   |   +-- Source
+|   |   +-- Date / Time
+|   +-- Flow: Get Payment Plan -> WhatsApp
+|
++-- Smart Lead Form
+|   +-- What are you looking for? (Investment / Home / Commercial)
+|   +-- Budget? (Under 2M / 2-5M / 5-10M / 10M+)
+|   +-- Preferred Location? (Islamabad / Rawalpindi / Other)
+|   +-- Timeline? (Immediate / 3 Months / 6 Months / Researching)
+
+====================================================
+DEVELOPMENT ROADMAP
+====================================================
+
+ROADMAP/
+|
++-- Phase 1 - Foundation
+|   +-- Brand system
+|   +-- Homepage
+|   +-- About
+|   +-- Dynamic Projects CMS
+|   +-- Contact
+|   +-- WhatsApp integration
+|   +-- Responsive design
+|   +-- Basic SEO
+|
++-- Phase 2 - Lead Generation
+|   +-- Smart lead forms
+|   +-- CRM integration
+|   +-- Payment-plan requests
+|   +-- Investment finder
+|   +-- ROI calculator
+|   +-- Project comparison
+|
++-- Phase 3 - Authority & SEO
+|   +-- Market Insights
+|   +-- Investment guides
+|   +-- Project comparison articles
+|   +-- Development updates
+|   +-- News / Media
+|   +-- FAQs
+|   +-- Schema / structured data
+|
++-- Phase 4 - Advanced Technology
+    +-- AI Investment Assistant
+    +-- Personalized project recommendations
+    +-- Advanced analytics
+    +-- Automated lead routing
+    +-- Overseas investor portal
+    +-- Video consultation booking
+
+====================================================
+SEO URL ARCHITECTURE
+====================================================
+
+URLS/
+|
++-- /projects/parkview-city-islamabad/
+|   +-- /location
+|   +-- /payment-plan
+|   +-- /master-plan
+|   +-- /development
+|
++-- /projects/blue-world-city/
++-- /projects/hashoo-real-estate/
++-- /projects/faisal-town-islamabad/
++-- /projects/premier-choice/
++-- /projects/saffron-city-islamabad/
++-- /projects/capital-smart-city/
+
+====================================================
+INITIAL PROJECT PORTFOLIO
+====================================================
+
+1. ParkView City Islamabad
+2. Blue World City
+3. Hashoo Real Estate Division
+4. Faisal Town
+5. Premier Choice International
+6. Saffron City Islamabad
+7. Capital Smart City

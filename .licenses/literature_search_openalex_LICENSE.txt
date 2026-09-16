@@ -1,0 +1,7 @@
+OpenAlex Literature Search Skill License Notification
+Timestamp: 2026-08-22T20:49:15+05:00
+
+Please review the OpenAlex terms of service and developer documentation at:
+https://developers.openalex.org/
+
+Always check the individual license of any scholarly works, publications, or full-text PDFs retrieved by this tool for copyright terms and reuse restrictions.

@@ -1,0 +1,33 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f4a37"/>
+      <stop offset="1" stop-color="#07271e"/>
+    </linearGradient>
+    <linearGradient id="goldline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#e2c878"/>
+      <stop offset="1" stop-color="#a8843a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="800" fill="url(#bg)"/>
+  <g stroke="#c9a24b" stroke-width="2" opacity="0.55" fill="none">
+    <path d="M0 800 C 200 600, 350 720, 520 620 C 700 520, 820 660, 950 560 C 1050 490, 1150 560, 1200 500 L 1200 800 Z"/>
+    <path d="M0 700 C 220 540, 380 660, 560 560 C 730 470, 860 600, 990 500 C 1080 440, 1150 500, 1200 440"/>
+    <path d="M0 800 L 0 560 C 250 420, 450 560, 640 460 C 800 380, 950 500, 1100 420 L 1200 360"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="1.5" opacity="0.35" fill="none">
+    <rect x="80" y="90" width="240" height="180" rx="6"/>
+    <rect x="340" y="90" width="240" height="180" rx="6"/>
+    <rect x="600" y="90" width="240" height="180" rx="6"/>
+    <rect x="860" y="90" width="260" height="180" rx="6"/>
+    <rect x="80" y="300" width="240" height="180" rx="6"/>
+    <rect x="340" y="300" width="240" height="180" rx="6"/>
+    <rect x="600" y="300" width="240" height="180" rx="6"/>
+    <rect x="860" y="300" width="260" height="180" rx="6"/>
+    <circle cx="440" cy="120" r="20" stroke="#e2c878" stroke-width="2.5"/>
+    <circle cx="440" cy="120" r="34" stroke="#e2c878" stroke-width="1" opacity="0.6"/>
+  </g>
+  <text x="600" y="760" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#e2c878" font-style="italic">ParkView City Islamabad</text>
+  <text x="600" y="700" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" fill="#c9c2b3" letter-spacing="4">MASTER PLAN</text>
+  <rect x="0" y="0" width="1200" height="6" fill="url(#goldline)"/>
+</svg>
