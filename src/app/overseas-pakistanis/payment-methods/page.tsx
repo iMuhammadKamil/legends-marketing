@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
@@ -7,7 +7,7 @@ import SectionGrid from "@/components/shared/Section/SectionGrid";
 export const metadata: Metadata = {
   title: "Payment Methods for Overseas Pakistanis",
   description:
-    "Secure and convenient payment methods for overseas Pakistanis investing in Pakistani real estate — wire transfers, bank drafts, online banking and more.",
+    "Secure and convenient payment methods for overseas Pakistanis investing in Pakistani real estate , wire transfers, bank drafts, online banking and more.",
 };
 
 const paymentMethods = [
@@ -51,7 +51,7 @@ const faqs = [
   {
     question: "How do I get a payment receipt?",
     answer:
-      "Every payment — whether wire transfer, bank draft or online — generates an official receipt. Legends Marketing provides duplicate receipts and maintains a complete payment ledger for your records.",
+      "Every payment , whether wire transfer, bank draft or online , generates an official receipt. Legends Marketing provides duplicate receipts and maintains a complete payment ledger for your records.",
   },
   {
     question: "Can I pay in instalments from abroad?",
@@ -61,7 +61,7 @@ const faqs = [
   {
     question: "Is there a minimum payment amount?",
     answer:
-      "The minimum is typically the down payment specified by the project — usually 10-20% of the total plot price. After that, instalments follow the society's published schedule.",
+      "The minimum is typically the down payment specified by the project , usually 10-20% of the total plot price. After that, instalments follow the society's published schedule.",
   },
 ];
 

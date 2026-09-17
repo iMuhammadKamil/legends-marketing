@@ -6,6 +6,7 @@ import WhatsAppCTA from "@/components/cta/WhatsAppCTA";
 import StickyMobileCTA from "@/components/cta/StickyMobileCTA";
 import FloatingLeadCTA from "@/components/cta/FloatingLeadCTA";
 import ScrollReveal from "@/components/shared/ScrollReveal/ScrollReveal";
+import LenisSmoothScroll from "@/components/shared/LenisSmoothScroll/LenisSmoothScroll";
 import { contact } from "@/data/contact";
 import "./globals.css";
 
@@ -52,6 +53,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${cormorant.variable} ${jakarta.variable}`}>
       <body>
+        <LenisSmoothScroll />
         <ScrollReveal />
         <Header />
         <main>{children}</main>

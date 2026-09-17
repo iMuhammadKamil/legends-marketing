@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
 import SectionGrid from "@/components/shared/Section/SectionGrid";
@@ -22,7 +22,7 @@ export default function InvestorServicesPage() {
             </span>
             <h1 className="page-hero__title">Services Built for Smart Investors</h1>
             <p className="page-hero__sub">
-              From your first consultation to after-sales support — a complete
+              From your first consultation to after-sales support , a complete
               suite of investor services under one roof.
             </p>
           </div>

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Container from "@/components/shared/Container/Container";
 import SectionGrid from "@/components/shared/Section/SectionGrid";
@@ -6,14 +6,14 @@ import SectionGrid from "@/components/shared/Section/SectionGrid";
 export const metadata: Metadata = {
   title: "Events",
   description:
-    "Upcoming and past events hosted by Legends Marketing — investor meetups, webinars, site visits and project launches.",
+    "Upcoming and past events hosted by Legends Marketing , investor meetups, webinars, site visits and project launches.",
 };
 
 const upcomingEvents = [
   {
-    title: "Investor Meetup — Dubai Edition",
+    title: "Investor Meetup , Dubai Edition",
     date: "September 5, 2026",
-    time: "7:00 PM – 10:00 PM",
+    time: "7:00 PM - 10:00 PM",
     location: "Dubai, UAE",
     slug: "investor-meetup-dubai-edition",
     image: "event-dubai.jpg",
@@ -21,7 +21,7 @@ const upcomingEvents = [
   {
     title: "Virtual Market Update Webinar",
     date: "September 18, 2026",
-    time: "8:00 PM – 9:30 PM",
+    time: "8:00 PM - 9:30 PM",
     location: "Online (Zoom)",
     slug: "virtual-market-update-webinar",
     image: "event-webinar.jpg",
@@ -29,7 +29,7 @@ const upcomingEvents = [
   {
     title: "ParkView City Group Site Visit",
     date: "October 3, 2026",
-    time: "10:00 AM – 2:00 PM",
+    time: "10:00 AM - 2:00 PM",
     location: "ParkView City, Islamabad",
     slug: "parkview-city-group-site-visit",
     image: "event-sitevisit.jpg",

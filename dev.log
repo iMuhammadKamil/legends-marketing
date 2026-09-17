@@ -58,3 +58,465 @@ digest: "392836414"
  GET /icon.svg?48775ba211206612 200 in 48ms
  ○ Compiling /investor-services/investment-consultancy ...
  ✓ Compiled /investor-services/investment-consultancy in 1223ms (665 modules)
+ ✓ Compiled in 5.7s (643 modules)
+ ✓ Compiled in 1327ms (656 modules)
+ ✓ Compiled in 1932ms (656 modules)
+ ✓ Compiled in 1390ms (656 modules)
+ GET /landing 200 in 477ms
+<w> [webpack.cache.PackFileCacheStrategy] Caching failed for pack: Error: ENOENT: no such file or directory, rename 'C:\Users\Admin\Desktop\legends marketing\.next\cache\webpack\client-development\8.pack.gz_' -> 'C:\Users\Admin\Desktop\legends marketing\.next\cache\webpack\client-development\8.pack.gz'
+ GET /landing 200 in 293ms
+ ○ Compiling /icon.svg ...
+ ✓ Compiled /icon.svg in 655ms (377 modules)
+ GET /icon.svg?48775ba211206612 200 in 2653ms
+ GET /landing 200 in 820ms
+ ✓ Compiled in 1588ms (298 modules)
+ ✓ Compiled in 1357ms (298 modules)
+ ✓ Compiled in 3.7s (652 modules)
+ ✓ Compiled in 1166ms (298 modules)
+ ✓ Compiled in 1198ms (298 modules)
+ ✓ Compiled in 2.1s (639 modules)
+ ✓ Compiled in 2.3s (642 modules)
+ GET /landing 200 in 551ms
+ GET /landing 200 in 661ms
+ ✓ Compiled in 1872ms (643 modules)
+ ✓ Compiled in 527ms (298 modules)
+ ✓ Compiled in 685ms (298 modules)
+ GET /landing 200 in 341ms
+ GET /landing 200 in 652ms
+ ○ Compiling / ...
+ ✓ Compiled / in 715ms (364 modules)
+ GET /landing 200 in 798ms
+ GET /landing 200 in 461ms
+ GET /landing 200 in 474ms
+ GET /landing 200 in 448ms
+ ✓ Compiled in 3s (675 modules)
+ ✓ Compiled in 1526ms (662 modules)
+ ✓ Compiled in 417ms (298 modules)
+ ✓ Compiled in 758ms (298 modules)
+ ✓ Compiled in 1668ms (662 modules)
+ ✓ Compiled in 3.6s (651 modules)
+ GET /landing 200 in 741ms
+ GET /landing 200 in 1193ms
+ ○ Compiling /contact ...
+ ✓ Compiled /contact in 1233ms (672 modules)
+ ○ Compiling /projects ...
+ ✓ Compiled /projects in 770ms (675 modules)
+ ✓ Compiled in 3.4s (688 modules)
+ ✓ Compiled in 1933ms (675 modules)
+ GET /landing 200 in 706ms
+ GET /landing 200 in 848ms
+ ✓ Compiled in 2.2s (688 modules)
+ ✓ Compiled in 2.1s (675 modules)
+ GET /landing 200 in 252ms
+ GET /landing 200 in 1263ms
+ GET / 200 in 132ms
+ ○ Compiling /icon.svg ...
+ ✓ Compiled /icon.svg in 682ms (406 modules)
+ GET /icon.svg?48775ba211206612 200 in 2052ms
+ GET /landing 200 in 285ms
+ GET /landing 200 in 346ms
+ GET /icon.svg?48775ba211206612 200 in 35ms
+ ✓ Compiled in 1544ms (314 modules)
+ ○ Compiling /_not-found ...
+ ✓ Compiled /_not-found in 4.6s (718 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/27212131a7ee4a06.webpack.hot-update.json 404 in 3007ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/27212131a7ee4a06.webpack.hot-update.json 404 in 483ms
+ GET /landing 200 in 840ms
+ GET / 200 in 496ms
+ GET /landing 200 in 632ms
+ GET /icon.svg?48775ba211206612 200 in 97ms
+ GET /icon.svg?48775ba211206612 200 in 21ms
+ ✓ Compiled in 919ms (300 modules)
+ ✓ Compiled in 835ms (300 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 4.9s (885 modules)
+ GET / 200 in 465ms
+ GET /landing 200 in 553ms
+ ✓ Compiled in 2.5s (896 modules)
+ ✓ Compiled /_not-found in 359ms (412 modules)
+ GET / 200 in 393ms
+ ✓ Compiled in 809ms (485 modules)
+ ✓ Compiled in 3s (897 modules)
+ ✓ Compiled in 5.3s (912 modules)
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET /landing 200 in 1465ms
+ ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+ GET / 200 in 166ms
+ ○ Compiling /icon.svg ...
+ ✓ Compiled /icon.svg in 579ms (452 modules)
+ GET /icon.svg?48775ba211206612 200 in 1218ms
+ GET /icon.svg?48775ba211206612 200 in 27ms
+ ✓ Compiled in 1567ms (944 modules)
+ ✓ Compiled in 886ms (492 modules)
+ ○ Compiling /_error ...
+ ✓ Compiled /_error in 2.1s (932 modules)
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/0c484f473b8bd109.webpack.hot-update.json 404 in 282ms
+ GET /_next/static/webpack/0c484f473b8bd109.webpack.hot-update.json 404 in 98ms
+ GET /landing 200 in 228ms
+ GET / 200 in 543ms
+ GET /landing 200 in 476ms
+ GET /icon.svg?48775ba211206612 200 in 46ms
+ GET /icon.svg?48775ba211206612 200 in 29ms
+ ✓ Compiled in 1231ms (493 modules)
+ GET /_next/static/webpack/53975f2feb2403e1.webpack.hot-update.json 404 in 101ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 283ms
+ GET /_next/static/webpack/53975f2feb2403e1.webpack.hot-update.json 404 in 170ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /landing 200 in 383ms
+ GET /icon.svg?48775ba211206612 200 in 31ms
+ GET /icon.svg?48775ba211206612 200 in 29ms
+ ✓ Compiled in 1692ms (949 modules)
+ GET /_next/static/webpack/1d8c2836ed431891.webpack.hot-update.json 404 in 237ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /_next/static/webpack/1d8c2836ed431891.webpack.hot-update.json 404 in 114ms
+ GET /landing 200 in 255ms
+ ⚠ Fast Refresh had to perform a full reload. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 698ms
+ GET /icon.svg?48775ba211206612 200 in 49ms
+ GET /icon.svg?48775ba211206612 200 in 32ms
+ ✓ Compiled in 681ms (494 modules)
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\HeroAnimation.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "3151111118"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\HeroAnimation.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "2961256066"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\HeroAnimation.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "2961256066"
+ GET / 500 in 165ms
+ ✓ Compiled in 2.5s (963 modules)
+ GET / 200 in 686ms
+ ✓ Compiled in 2.1s (963 modules)
+ ✓ Compiled in 2.1s (981 modules)
+ ✓ Compiled in 1680ms (983 modules)
+ ✓ Compiled in 1571ms (986 modules)
+ ✓ Compiled in 2.2s (957 modules)
+ ✓ Compiled in 1947ms (945 modules)
+ ✓ Compiled in 1385ms (961 modules)
+ ✓ Compiled in 1269ms (517 modules)
+ ✓ Compiled in 1479ms (517 modules)
+ ✓ Compiled in 1822ms (961 modules)
+ ✓ Compiled in 2.5s (950 modules)
+ ✓ Compiled in 1383ms (964 modules)
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\HeroAnimation.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "3151111118"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\FeaturedProjects.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "574035567"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\ValuePillars.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "4079750831"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\WhyInvest.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "52215535"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\InvestmentOpportunities.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "3926590351"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\MarketInsightsPreview.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "1663640047"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\Testimonials.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "1964967215"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\StrategicPartners.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "3425555695"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\HomeCTA.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "1218133359"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\HeroAnimation.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "2961256066"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\FeaturedProjects.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "3937743523"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\ValuePillars.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "1609787875"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\WhyInvest.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "2524099363"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\InvestmentOpportunities.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "1888218307"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\MarketInsightsPreview.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "1805491491"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\Testimonials.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "1116641379"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\StrategicPartners.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "3252923683"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\HomeCTA.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "1369854883"
+ ⨯ Error: Could not find the module "C:\Users\Admin\Desktop\legends marketing\src\components\sections\home\HeroAnimation.tsx#default" in the React Client Manifest. This is probably a bug in the React Server Components bundler.
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+    at stringify (<anonymous>)
+digest: "2961256066"
+ GET / 500 in 273ms
+ ✓ Compiled in 1511ms (964 modules)
+ GET / 200 in 464ms
+ ✓ Compiled in 1345ms (964 modules)
+ GET /landing 200 in 133ms
+ GET / 200 in 89ms
+ ○ Compiling /about ...
+ ✓ Compiled /about in 991ms (966 modules)
+ GET /about 200 in 1131ms
+ GET /projects 200 in 105ms
+ GET /contact 200 in 121ms
+ GET /landing 200 in 195ms
+ GET / 200 in 157ms
+ GET /landing 200 in 153ms
+ ○ Compiling /projects/[project-slug] ...
+ ✓ Compiled /projects/[project-slug] in 2.3s (1003 modules)
+ ✓ Compiled in 9.6s (1003 modules)
+ ✓ Compiled in 1750ms (520 modules)
+ ✓ Compiled in 2.8s (1003 modules)
+ ✓ Compiled in 948ms (520 modules)
+ ✓ Compiled in 1598ms (520 modules)
+ ⨯ ./src/components/sections/projects/ProjectHero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\Admin\Desktop\legends marketing\src\components\sections\projects\ProjectHero.tsx[0m:8:1]
+ [2m 8[0m | export default function ProjectHero({ project }: ProjectHeroProps) {
+ [2m 9[0m |   const bgImage = project.coverImage || project.masterPlan.imageUrl;
+ [2m10[0m |   return (
+ [2m11[0m |     <section className="project-hero">
+    : [31;1m     ^^^^^^^[0m
+ [2m12[0m |       {/* Full-bleed background image */}
+ [2m13[0m |       <div
+ [2m14[0m |         className="project-hero__media"
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/projects/ProjectHero.tsx
+./src/app/projects/[project-slug]/page.tsx
+ ⨯ ./src/components/sections/projects/ProjectHero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\Admin\Desktop\legends marketing\src\components\sections\projects\ProjectHero.tsx[0m:8:1]
+ [2m 8[0m | export default function ProjectHero({ project }: ProjectHeroProps) {
+ [2m 9[0m |   const bgImage = project.coverImage || project.masterPlan.imageUrl;
+ [2m10[0m |   return (
+ [2m11[0m |     <section className="project-hero">
+    : [31;1m     ^^^^^^^[0m
+ [2m12[0m |       {/* Full-bleed background image */}
+ [2m13[0m |       <div
+ [2m14[0m |         className="project-hero__media"
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/projects/ProjectHero.tsx
+./src/app/projects/[project-slug]/page.tsx
+ ○ Compiling /_error ...
+ ⨯ ./src/components/sections/projects/ProjectHero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\Admin\Desktop\legends marketing\src\components\sections\projects\ProjectHero.tsx[0m:8:1]
+ [2m 8[0m | export default function ProjectHero({ project }: ProjectHeroProps) {
+ [2m 9[0m |   const bgImage = project.coverImage || project.masterPlan.imageUrl;
+ [2m10[0m |   return (
+ [2m11[0m |     <section className="project-hero">
+    : [31;1m     ^^^^^^^[0m
+ [2m12[0m |       {/* Full-bleed background image */}
+ [2m13[0m |       <div
+ [2m14[0m |         className="project-hero__media"
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/projects/ProjectHero.tsx
+./src/app/projects/[project-slug]/page.tsx
+ GET / 500 in 8636ms
+ GET /landing 500 in 114ms
+ ⨯ ./src/components/sections/projects/ProjectHero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\Admin\Desktop\legends marketing\src\components\sections\projects\ProjectHero.tsx[0m:8:1]
+ [2m 8[0m | export default function ProjectHero({ project }: ProjectHeroProps) {
+ [2m 9[0m |   const bgImage = project.coverImage || project.masterPlan.imageUrl;
+ [2m10[0m |   return (
+ [2m11[0m |     <section className="project-hero">
+    : [31;1m     ^^^^^^^[0m
+ [2m12[0m |       {/* Full-bleed background image */}
+ [2m13[0m |       <div
+ [2m14[0m |         className="project-hero__media"
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/projects/ProjectHero.tsx
+./src/app/projects/[project-slug]/page.tsx
+ ⨯ ./src/components/sections/projects/ProjectHero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\Admin\Desktop\legends marketing\src\components\sections\projects\ProjectHero.tsx[0m:8:1]
+ [2m 8[0m | export default function ProjectHero({ project }: ProjectHeroProps) {
+ [2m 9[0m |   const bgImage = project.coverImage || project.masterPlan.imageUrl;
+ [2m10[0m |   return (
+ [2m11[0m |     <section className="project-hero">
+    : [31;1m     ^^^^^^^[0m
+ [2m12[0m |       {/* Full-bleed background image */}
+ [2m13[0m |       <div
+ [2m14[0m |         className="project-hero__media"
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/projects/ProjectHero.tsx
+./src/app/projects/[project-slug]/page.tsx
+ GET /about 500 in 1872ms
+ GET /projects 500 in 84ms
+ GET /contact 500 in 113ms
+ ⨯ ./src/components/sections/projects/ProjectHero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\Admin\Desktop\legends marketing\src\components\sections\projects\ProjectHero.tsx[0m:8:1]
+ [2m 8[0m | export default function ProjectHero({ project }: ProjectHeroProps) {
+ [2m 9[0m |   const bgImage = project.coverImage || project.masterPlan.imageUrl;
+ [2m10[0m |   return (
+ [2m11[0m |     <section className="project-hero">
+    : [31;1m     ^^^^^^^[0m
+ [2m12[0m |       {/* Full-bleed background image */}
+ [2m13[0m |       <div
+ [2m14[0m |         className="project-hero__media"
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/projects/ProjectHero.tsx
+./src/app/projects/[project-slug]/page.tsx
+ GET /investor-services 500 in 1622ms
+ ⨯ ./src/components/sections/projects/ProjectHero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\Admin\Desktop\legends marketing\src\components\sections\projects\ProjectHero.tsx[0m:8:1]
+ [2m 8[0m | export default function ProjectHero({ project }: ProjectHeroProps) {
+ [2m 9[0m |   const bgImage = project.coverImage || project.masterPlan.imageUrl;
+ [2m10[0m |   return (
+ [2m11[0m |     <section className="project-hero">
+    : [31;1m     ^^^^^^^[0m
+ [2m12[0m |       {/* Full-bleed background image */}
+ [2m13[0m |       <div
+ [2m14[0m |         className="project-hero__media"
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/projects/ProjectHero.tsx
+./src/app/projects/[project-slug]/page.tsx
+ GET /overseas-pakistanis 500 in 1051ms
+ ⨯ ./src/components/sections/projects/ProjectHero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\Admin\Desktop\legends marketing\src\components\sections\projects\ProjectHero.tsx[0m:8:1]
+ [2m 8[0m | export default function ProjectHero({ project }: ProjectHeroProps) {
+ [2m 9[0m |   const bgImage = project.coverImage || project.masterPlan.imageUrl;
+ [2m10[0m |   return (
+ [2m11[0m |     <section className="project-hero">
+    : [31;1m     ^^^^^^^[0m
+ [2m12[0m |       {/* Full-bleed background image */}
+ [2m13[0m |       <div
+ [2m14[0m |         className="project-hero__media"
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/projects/ProjectHero.tsx
+./src/app/projects/[project-slug]/page.tsx
+ GET /investment-tools 500 in 1276ms
+ ⨯ ./src/components/sections/projects/ProjectHero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\Admin\Desktop\legends marketing\src\components\sections\projects\ProjectHero.tsx[0m:8:1]
+ [2m 8[0m | export default function ProjectHero({ project }: ProjectHeroProps) {
+ [2m 9[0m |   const bgImage = project.coverImage || project.masterPlan.imageUrl;
+ [2m10[0m |   return (
+ [2m11[0m |     <section className="project-hero">
+    : [31;1m     ^^^^^^^[0m
+ [2m12[0m |       {/* Full-bleed background image */}
+ [2m13[0m |       <div
+ [2m14[0m |         className="project-hero__media"
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/projects/ProjectHero.tsx
+./src/app/projects/[project-slug]/page.tsx
+ GET /media 500 in 1452ms
+ ⨯ ./src/components/sections/projects/ProjectHero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\Admin\Desktop\legends marketing\src\components\sections\projects\ProjectHero.tsx[0m:8:1]
+ [2m 8[0m | export default function ProjectHero({ project }: ProjectHeroProps) {
+ [2m 9[0m |   const bgImage = project.coverImage || project.masterPlan.imageUrl;
+ [2m10[0m |   return (
+ [2m11[0m |     <section className="project-hero">
+    : [31;1m     ^^^^^^^[0m
+ [2m12[0m |       {/* Full-bleed background image */}
+ [2m13[0m |       <div
+ [2m14[0m |         className="project-hero__media"
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/projects/ProjectHero.tsx
+./src/app/projects/[project-slug]/page.tsx
+ GET /market-insights 500 in 1452ms

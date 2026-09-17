@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Container from "@/components/shared/Container/Container";
 import SectionGrid from "@/components/shared/Section/SectionGrid";
@@ -6,7 +6,7 @@ import SectionGrid from "@/components/shared/Section/SectionGrid";
 export const metadata: Metadata = {
   title: "Press & PR",
   description:
-    "Official press releases, media coverage and public statements from Legends Marketing — your trusted real estate marketing partner.",
+    "Official press releases, media coverage and public statements from Legends Marketing , your trusted real estate marketing partner.",
 };
 
 const releases = [

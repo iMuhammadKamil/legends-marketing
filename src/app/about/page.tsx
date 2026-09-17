@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
 import SectionGrid from "@/components/shared/Section/SectionGrid";
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 const values = [
   {
     title: "Transparency",
-    desc: "Honest guidance grounded in verified facts — we never promise what we cannot substantiate.",
+    desc: "Honest guidance grounded in verified facts , we never promise what we cannot substantiate.",
   },
   {
     title: "Integrity",
@@ -42,7 +42,7 @@ export default function AboutPage() {
             <h1 className="page-hero__title">Your Trusted Partner in Real Estate Investment</h1>
             <p className="page-hero__sub">
               {contact.company} is a professional real estate sales, marketing
-              and investment consultancy firm — {contact.registration.toLowerCase()}.
+              and investment consultancy firm , {contact.registration.toLowerCase()}.
             </p>
           </div>
         </Container>
@@ -57,7 +57,7 @@ export default function AboutPage() {
               <p>
                 {contact.company} was founded on a simple belief: property
                 investment should be transparent, structured and accessible.
-                We connect investors — locally and overseas — with
+                We connect investors , locally and overseas , with
                 Pakistan&rsquo;s most promising real estate projects through
                 authorized partnerships with leading developers.
               </p>
@@ -67,14 +67,14 @@ export default function AboutPage() {
               </p>
               <p>
                 Today, we serve investors through {contact.phone} and{" "}
-                <a href={`mailto:${contact.email}`}>{contact.email}</a> — and we
+                <a href={`mailto:${contact.email}`}>{contact.email}</a> , and we
                 are proud to be {contact.registration.toLowerCase()}.
               </p>
             </div>
             <div className="card" style={{ overflow: "hidden" }}>
               <img
                 src="/images/about/overview.jpg"
-                alt="Legends Marketing team — professional real estate consultancy"
+                alt="Legends Marketing team , professional real estate consultancy"
                 style={{ width: "100%", height: "auto", display: "block" }}
               />
             </div>

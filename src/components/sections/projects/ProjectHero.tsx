@@ -76,14 +76,6 @@ export default function ProjectHero({ project }: ProjectHeroProps) {
               </div>
             </div>
           </div>
-
-          {/* Scroll indicator */}
-          <div className="project-hero__scroll" aria-hidden="true">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M12 5v14M19 12l-7 7-7-7" strokeLinecap="round" strokeLinejoin="round"/>
-            </svg>
-            <span className="sr-only">Scroll to explore</span>
-          </div>
         </div>
       </div>
     </section>

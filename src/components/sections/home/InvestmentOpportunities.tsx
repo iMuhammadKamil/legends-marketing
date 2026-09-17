@@ -1,6 +1,9 @@
+"use client";
+
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
 import SectionHeader from "@/components/shared/Section/SectionHeader";
+import { ScrollReveal, StaggerReveal } from "@/components/shared/ScrollReveal/ScrollRevealComponents";
 
 const opportunities = [
   {
@@ -21,7 +24,7 @@ const opportunities = [
   {
     icon: "&#9992;",
     title: "Overseas Investment",
-    desc: "Dedicated guidance for overseas Pakistanis — fully remote from booking to documentation.",
+    desc: "Dedicated guidance for overseas Pakistanis, fully remote from booking to documentation.",
   },
 ];
 
@@ -29,29 +32,39 @@ export default function InvestmentOpportunities() {
   return (
     <section className="section section--dark">
       <Container>
-        <SectionHeader
-          kicker="Opportunities"
-          title="Investment Opportunities"
-          subtitle="Whatever your goals — capital growth, rental income, or a future home — we find the project that fits."
-        />
-        <div className="grid-4">
-          {opportunities.map((opp) => (
-            <div key={opp.title} className="opp-card">
-              <div
-                className="opp-card__icon"
-                aria-hidden="true"
-                dangerouslySetInnerHTML={{ __html: opp.icon }}
-              />
-              <h3 className="opp-card__title">{opp.title}</h3>
-              <p className="opp-card__desc">{opp.desc}</p>
-            </div>
-          ))}
-        </div>
-        <div style={{ textAlign: "center", marginTop: "2.5rem" }}>
-          <Button href="/projects" variant="gold" size="lg">
-            Find Your Investment
-          </Button>
-        </div>
+        <ScrollReveal>
+          <SectionHeader
+            kicker="Opportunities"
+            title="Investment Opportunities"
+            subtitle="Whatever your goals, capital growth, rental income, or a future home, we find the project that fits."
+          />
+        </ScrollReveal>
+        <StaggerReveal
+          childSelector=".opp-card"
+          stagger={0.1}
+          start="top 80%"
+        >
+          <div className="grid-4">
+            {opportunities.map((opp) => (
+              <div key={opp.title} className="opp-card">
+                <div
+                  className="opp-card__icon"
+                  aria-hidden="true"
+                  dangerouslySetInnerHTML={{ __html: opp.icon }}
+                />
+                <h3 className="opp-card__title">{opp.title}</h3>
+                <p className="opp-card__desc">{opp.desc}</p>
+              </div>
+            ))}
+          </div>
+        </StaggerReveal>
+        <ScrollReveal delay={0.3}>
+          <div style={{ textAlign: "center", marginTop: "2.5rem" }}>
+            <Button href="/projects" variant="gold" size="lg">
+              Find Your Investment
+            </Button>
+          </div>
+        </ScrollReveal>
       </Container>
     </section>
   );

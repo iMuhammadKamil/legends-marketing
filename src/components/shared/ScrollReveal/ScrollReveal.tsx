@@ -1,6 +1,10 @@
 "use client";
 
 import { useEffect } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+
+gsap.registerPlugin(ScrollTrigger);
 
 const REVEAL_SELECTORS = [
   ".gallery-image",
@@ -14,6 +18,15 @@ const REVEAL_SELECTORS = [
   ".contact-map",
   ".project-sidebar",
   ".project-hero",
+  ".mp-reveal",
+  ".stats-band",
+  ".process-step",
+  ".project-highlight",
+  ".service-pill",
+  ".overseas-banner",
+  ".testimonial-card-lg",
+  ".landing-cta__inner",
+  ".landing-stat-card",
 ].join(",");
 
 export default function ScrollReveal() {
@@ -23,92 +36,101 @@ export default function ScrollReveal() {
     ).matches;
     if (reduced) return;
 
-    const observed = new WeakSet<Element>();
+    const ctx = gsap.context(() => {
+      const elements = document.querySelectorAll(REVEAL_SELECTORS);
 
-    const io = new IntersectionObserver(
-      (entries) => {
-        for (const entry of entries) {
-          if (entry.isIntersecting) {
-            entry.target.classList.add("reveal-in");
-            io.unobserve(entry.target);
-          }
+      elements.forEach((el) => {
+        if (
+          el.classList.contains("reveal-in") ||
+          el.closest("header") ||
+          el.closest("footer") ||
+          el.closest("nav")
+        ) {
+          return;
         }
-      },
-      { rootMargin: "60px 0px", threshold: 0.08 }
-    );
 
-    const observe = (el: Element) => {
-      if (observed.has(el)) return;
-      if (
-        el.classList.contains("reveal-in") ||
-        el.closest("header") ||
-        el.closest("footer") ||
-        el.closest("nav")
-      ) {
-        return;
-      }
-      observed.add(el);
-      io.observe(el);
-    };
+        gsap.set(el, { opacity: 0, y: 30 });
 
-    const scan = () => {
-      document.querySelectorAll(REVEAL_SELECTORS).forEach(observe);
-    };
+        gsap.to(el, {
+          opacity: 1,
+          y: 0,
+          duration: 0.8,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: el,
+            start: "top 88%",
+            end: "top 60%",
+            toggleActions: "play none none none",
+          },
+        });
+      });
 
-    let raf = 0;
-    let scanTimeout = 0;
+      const headings = document.querySelectorAll(".section-head");
+      headings.forEach((heading) => {
+        const kicker = heading.querySelector(".kicker");
+        const title = heading.querySelector(".section-head__title");
+        const sub = heading.querySelector(".section-head__sub");
 
-    const deferredScan = () => {
-      cancelAnimationFrame(raf);
-      clearTimeout(scanTimeout);
-      scanTimeout = window.setTimeout(() => {
-        raf = requestAnimationFrame(scan);
-      }, 100);
-    };
+        const tl = gsap.timeline({
+          scrollTrigger: {
+            trigger: heading,
+            start: "top 85%",
+            toggleActions: "play none none none",
+          },
+        });
 
-    const start = () => {
-      document.documentElement.classList.add("sr-js");
-      scan();
-      // Only watch for new nodes being added, not class changes
-      const mo = new MutationObserver((mutations) => {
-        let hasNewNodes = false;
-        for (const m of mutations) {
-          if (m.type === "childList" && m.addedNodes.length > 0) {
-            hasNewNodes = true;
-            break;
-          }
+        if (kicker) {
+          tl.fromTo(
+            kicker,
+            { opacity: 0, y: 16 },
+            { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" }
+          );
         }
-        if (hasNewNodes) deferredScan();
+        if (title) {
+          tl.fromTo(
+            title,
+            { opacity: 0, y: 20 },
+            { opacity: 1, y: 0, duration: 0.6, ease: "power3.out" },
+            "-=0.3"
+          );
+        }
+        if (sub) {
+          tl.fromTo(
+            sub,
+            { opacity: 0, y: 16 },
+            { opacity: 1, y: 0, duration: 0.5, ease: "power3.out" },
+            "-=0.35"
+          );
+        }
       });
-      mo.observe(document.body, {
-        childList: true,
-        subtree: true,
+
+      const staggerGroups = [
+        ".grid-3 > *",
+        ".grid-4 > *",
+        ".services-grid > *",
+      ];
+      staggerGroups.forEach((selector) => {
+        const items = document.querySelectorAll(selector);
+        if (items.length === 0) return;
+
+        gsap.set(items, { opacity: 0, y: 24 });
+
+        gsap.to(items, {
+          opacity: 1,
+          y: 0,
+          duration: 0.6,
+          ease: "power3.out",
+          stagger: 0.08,
+          scrollTrigger: {
+            trigger: items[0].parentElement,
+            start: "top 80%",
+            toggleActions: "play none none none",
+          },
+        });
       });
-      return mo;
-    };
+    });
 
-    let mo: MutationObserver | undefined;
-    let startTimer = 0;
-    if (document.readyState === "complete") {
-      startTimer = window.setTimeout(() => { mo = start(); }, 150);
-    } else {
-      window.addEventListener(
-        "load",
-        () => {
-          startTimer = window.setTimeout(() => { mo = start(); }, 150);
-        },
-        { once: true }
-      );
-    }
-
-    return () => {
-      window.clearTimeout(startTimer);
-      cancelAnimationFrame(raf);
-      clearTimeout(scanTimeout);
-      mo?.disconnect();
-      io.disconnect();
-      document.documentElement.classList.remove("sr-js");
-    };
+    return () => ctx.revert();
   }, []);
 
   return null;

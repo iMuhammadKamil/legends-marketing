@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Container from "@/components/shared/Container/Container";
 import ContactForm from "@/components/forms/ContactForm";
 import { contact } from "@/data/contact";
@@ -122,7 +122,7 @@ export default function ContactPage() {
                 Islamabad. Opening hours: {contact.hours}.
               </p>
               <iframe
-                title="Legends Marketing head office — Premier Choice, Bahria Food Street, Phase 7"
+                title="Legends Marketing head office , Premier Choice, Bahria Food Street, Phase 7"
                 src="https://maps.google.com/maps?ll=33.525614,73.096629&q=Premier%20Choice%20Food%20Street%20Phase%207%20Bahria%20Town%20Islamabad&z=17&output=embed"
                 width="100%"
                 height="100%"

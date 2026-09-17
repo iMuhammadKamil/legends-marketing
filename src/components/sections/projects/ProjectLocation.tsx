@@ -1,4 +1,4 @@
-import Container from "@/components/shared/Container/Container";
+﻿import Container from "@/components/shared/Container/Container";
 import type { Project } from "@/types/project";
 
 interface ProjectLocationProps {
@@ -22,7 +22,7 @@ export default function ProjectLocation({ project }: ProjectLocationProps) {
                   </span>
                   <span style={{ fontWeight: 600 }}>
                     {place.name}
-                    <span className="feature-item__desc"> — {place.distance}</span>
+                    <span className="feature-item__desc"> , {place.distance}</span>
                   </span>
                 </li>
               ))}

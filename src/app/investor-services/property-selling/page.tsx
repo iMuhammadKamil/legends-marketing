@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
 import SectionGrid from "@/components/shared/Section/SectionGrid";
@@ -19,22 +19,22 @@ const benefits = [
 
 const processSteps = [
   {
-    "step": "01",
+    "step": "Analyze",
     "title": "Property Assessment",
     "desc": "Detailed review of file status, paid installments, and premium."
   },
   {
-    "step": "02",
+    "step": "Select",
     "title": "Marketing & Buyer Matching",
     "desc": "Direct outreach to active investor channels and private clients."
   },
   {
-    "step": "03",
+    "step": "Book",
     "title": "Offer Negotiation",
     "desc": "Securing the highest net payout with transparent terms."
   },
   {
-    "step": "04",
+    "step": "Complete",
     "title": "Transfer & Payment Clearance",
     "desc": "Execution of society transfer and secure funds disbursement."
   }
@@ -115,9 +115,9 @@ export default function PropertySellingPage() {
       <section className="section">
         <Container>
           <div className="section-head text-center">
-            <span className="kicker">Execution Framework</span>
+            <span className="kicker">How It Works</span>
             <h2 className="section-head__title">Our 4-Step Process</h2>
-            <p className="section-head__sub">How we manage your service requirements seamlessly.</p>
+            <p className="section-head__sub">A clear, step-by-step process from first contact to completed transaction.</p>
           </div>
           <SectionGrid columns={4}>
             {processSteps.map((p) => (

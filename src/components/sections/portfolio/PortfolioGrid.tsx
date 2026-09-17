@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 interface Project {
   title: string;
@@ -58,7 +58,7 @@ export default function PortfolioGrid() {
           >
             <img
               src={p.image}
-              alt={`${p.title} — ${p.location}`}
+              alt={`${p.title} , ${p.location}`}
               loading={i < 2 ? "eager" : "lazy"}
             />
             <div className="mp-portfolio__card-info">

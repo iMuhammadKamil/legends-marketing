@@ -1,4 +1,4 @@
-import Button from "@/components/shared/Button/Button";
+﻿import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
 import { formatCurrency } from "@/lib/utils";
 import type { Project } from "@/types/project";
@@ -36,7 +36,7 @@ export default function ProjectPricing({ project }: ProjectPricingProps) {
           )}
           <p className="form__note">
             Last updated: {pricing.lastUpdated}
-            {pricing.disclaimer ? ` — ${pricing.disclaimer}` : ""}
+            {pricing.disclaimer ? ` , ${pricing.disclaimer}` : ""}
           </p>
           <div style={{ marginTop: "1.5rem" }}>
             <Button href="/contact" variant="gold">

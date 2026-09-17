@@ -1,6 +1,7 @@
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
 import AnimatedCounter from "@/components/shared/AnimatedCounter/AnimatedCounter";
+import HeroAnimation from "./HeroAnimation";
 import { projects } from "@/data/projects";
 import { partners } from "@/data/partners";
 import { services } from "@/data/services";
@@ -13,6 +14,7 @@ export default function Hero() {
 
   return (
     <section className="hero">
+      <HeroAnimation />
       <div
         className="hero__bg"
         style={{ backgroundImage: "url(/images/hero/main.jpg)" }}
@@ -27,7 +29,7 @@ export default function Hero() {
           </h1>
           <p className="hero__lead fade-up delay-2">
             {contact.company} connects investors with Pakistan&rsquo;s most
-            promising real estate projects &mdash; with transparent,
+            promising real estate projects, with transparent,
             research-led advisory from booking to after-sales.
           </p>
           <div className="hero__cta fade-up delay-3">

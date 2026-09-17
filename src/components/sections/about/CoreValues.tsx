@@ -1,10 +1,10 @@
-import Container from "@/components/shared/Container/Container";
+﻿import Container from "@/components/shared/Container/Container";
 import SectionGrid from "@/components/shared/Section/SectionGrid";
 
 const values = [
   {
     title: "Transparency",
-    desc: "Honest guidance grounded in verified facts — we never promise what we cannot substantiate.",
+    desc: "Honest guidance grounded in verified facts , we never promise what we cannot substantiate.",
   },
   {
     title: "Integrity",

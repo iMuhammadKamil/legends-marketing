@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
 import SectionGrid from "@/components/shared/Section/SectionGrid";
@@ -7,7 +7,7 @@ import { contact } from "@/data/contact";
 export const metadata: Metadata = {
   title: "Our Story | Legends Marketing",
   description:
-    "Discover the story of Legends Marketing — our heritage, milestones, and how we became a leading real estate marketing and investment advisory firm.",
+    "Discover the story of Legends Marketing , our heritage, milestones, and how we became a leading real estate marketing and investment advisory firm.",
 };
 
 const milestones = [

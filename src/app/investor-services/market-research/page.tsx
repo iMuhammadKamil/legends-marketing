@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
 import SectionGrid from "@/components/shared/Section/SectionGrid";
@@ -19,22 +19,22 @@ const benefits = [
 
 const processSteps = [
   {
-    "step": "01",
+    "step": "Analyze",
     "title": "Data Gathering",
     "desc": "Tracking on-ground transaction volumes and society balloting."
   },
   {
-    "step": "02",
+    "step": "Select",
     "title": "Infrastructure Correlation",
     "desc": "Evaluating government infrastructure timelines on property rates."
   },
   {
-    "step": "03",
+    "step": "Book",
     "title": "Insight Formulation",
     "desc": "Publishing actionable intelligence and investment alerts."
   },
   {
-    "step": "04",
+    "step": "Complete",
     "title": "Client Advisory Integration",
     "desc": "Applying data models to optimize individual investor decisions."
   }
@@ -115,9 +115,9 @@ export default function MarketResearchPage() {
       <section className="section">
         <Container>
           <div className="section-head text-center">
-            <span className="kicker">Execution Framework</span>
+            <span className="kicker">How It Works</span>
             <h2 className="section-head__title">Our 4-Step Process</h2>
-            <p className="section-head__sub">How we manage your service requirements seamlessly.</p>
+            <p className="section-head__sub">A clear, step-by-step process from first contact to completed transaction.</p>
           </div>
           <SectionGrid columns={4}>
             {processSteps.map((p) => (

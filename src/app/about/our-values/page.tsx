@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
 import SectionGrid from "@/components/shared/Section/SectionGrid";
@@ -6,7 +6,7 @@ import SectionGrid from "@/components/shared/Section/SectionGrid";
 export const metadata: Metadata = {
   title: "Our Values | Legends Marketing",
   description:
-    "Explore the core values and guiding principles of Legends Marketing — Integrity, Transparency, Expertise, and Unwavering Commitment to our investors.",
+    "Explore the core values and guiding principles of Legends Marketing , Integrity, Transparency, Expertise, and Unwavering Commitment to our investors.",
 };
 
 const coreValues = [

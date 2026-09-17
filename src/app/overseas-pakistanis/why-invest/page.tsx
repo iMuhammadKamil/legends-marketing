@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
@@ -7,7 +7,7 @@ import SectionGrid from "@/components/shared/Section/SectionGrid";
 export const metadata: Metadata = {
   title: "Why Invest in Pakistan",
   description:
-    "Discover why Pakistan is a compelling real estate investment destination for overseas Pakistanis — high returns, affordable prices and government incentives.",
+    "Discover why Pakistan is a compelling real estate investment destination for overseas Pakistanis , high returns, affordable prices and government incentives.",
 };
 
 const reasons = [
@@ -21,7 +21,7 @@ const reasons = [
   },
   {
     title: "Growing Population & Demand",
-    desc: "With over 240 million people and rapid urbanisation, demand for quality housing continues to outpace supply — creating sustained upward pressure on property values.",
+    desc: "With over 240 million people and rapid urbanisation, demand for quality housing continues to outpace supply , creating sustained upward pressure on property values.",
   },
   {
     title: "Government Incessant Incentives",
@@ -33,7 +33,7 @@ const reasons = [
   },
   {
     title: "Emotional & Financial Upside",
-    desc: "Investing in Pakistan lets you build generational wealth in your homeland while staying connected to your roots — a rare combination of financial and personal value.",
+    desc: "Investing in Pakistan lets you build generational wealth in your homeland while staying connected to your roots , a rare combination of financial and personal value.",
   },
 ];
 
@@ -56,7 +56,7 @@ export default function WhyInvestPage() {
             <h1 className="page-hero__title">Why Invest in Pakistan</h1>
             <p className="page-hero__sub">
               Pakistan offers some of the highest real estate returns in South
-              Asia — combined with government incentives designed specifically for
+              Asia , combined with government incentives designed specifically for
               overseas investors.
             </p>
           </div>
@@ -123,7 +123,7 @@ export default function WhyInvestPage() {
                 unique opportunity that mature markets simply cannot match.
               </p>
               <p>
-                For overseas Pakistanis, the advantage is even greater — your
+                For overseas Pakistanis, the advantage is even greater , your
                 foreign currency income stretches further, returns are
                 denominated in a depreciating rupee (meaning higher real
                 returns) and you maintain a tangible connection to your

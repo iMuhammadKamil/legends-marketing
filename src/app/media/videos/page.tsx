@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Container from "@/components/shared/Container/Container";
 import SectionGrid from "@/components/shared/Section/SectionGrid";
@@ -18,7 +18,7 @@ const videos = [
     thumbnail: "video-parkview.jpg",
   },
   {
-    title: "Blue World City Overseas Block — What You Need to Know",
+    title: "Blue World City Overseas Block , What You Need to Know",
     duration: "8:45",
     category: "Project Update",
     slug: "blue-world-city-overseas-block",
@@ -46,7 +46,7 @@ const videos = [
     thumbnail: "video-faisal.jpg",
   },
   {
-    title: "Investor Q&A — Your Questions Answered",
+    title: "Investor Q&A , Your Questions Answered",
     duration: "18:30",
     category: "Discussion",
     slug: "investor-qa-your-questions-answered",

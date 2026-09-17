@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
@@ -7,7 +7,7 @@ import SectionGrid from "@/components/shared/Section/SectionGrid";
 export const metadata: Metadata = {
   title: "Remote Booking Process",
   description:
-    "Book your property in Pakistan from anywhere in the world with our streamlined remote booking process — no travel required.",
+    "Book your property in Pakistan from anywhere in the world with our streamlined remote booking process , no travel required.",
 };
 
 const processSteps = [
@@ -34,7 +34,7 @@ const processSteps = [
   {
     num: "05",
     title: "Payment Processing",
-    desc: "Transfer your down payment through any of our accepted overseas payment methods — wire transfer, bank draft, online banking or app-based transfers. All transactions are documented with official receipts.",
+    desc: "Transfer your down payment through any of our accepted overseas payment methods , wire transfer, bank draft, online banking or app-based transfers. All transactions are documented with official receipts.",
   },
   {
     num: "06",
@@ -54,7 +54,7 @@ const benefits = [
   },
   {
     title: "Transparent Process",
-    desc: "Receive real-time updates at every stage — from document verification to payment receipt to allocation confirmation. No hidden steps or surprises.",
+    desc: "Receive real-time updates at every stage , from document verification to payment receipt to allocation confirmation. No hidden steps or surprises.",
   },
   {
     title: "Dedicated Support",
@@ -81,7 +81,7 @@ export default function RemoteBookingPage() {
             </span>
             <h1 className="page-hero__title">Remote Booking Process</h1>
             <p className="page-hero__sub">
-              Book your property in Pakistan without leaving your country — our
+              Book your property in Pakistan without leaving your country , our
               streamlined remote process makes it simple, secure and legally
               sound.
             </p>

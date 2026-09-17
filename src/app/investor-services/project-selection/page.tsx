@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
 import SectionGrid from "@/components/shared/Section/SectionGrid";
@@ -19,22 +19,22 @@ const benefits = [
 
 const processSteps = [
   {
-    "step": "01",
+    "step": "Analyze",
     "title": "Criteria Definition",
     "desc": "We outline budget, location preference, and holding duration."
   },
   {
-    "step": "02",
+    "step": "Select",
     "title": "Curated Shortlist",
     "desc": "Present top 2-3 project options meeting your exact parameters."
   },
   {
-    "step": "03",
+    "step": "Book",
     "title": "Comparative Deep-Dive",
     "desc": "Review master plans, location advantages, and payment models."
   },
   {
-    "step": "04",
+    "step": "Complete",
     "title": "Final Allocation",
     "desc": "Reserve optimal sector and plot number directly with developer."
   }
@@ -115,9 +115,9 @@ export default function ProjectSelectionPage() {
       <section className="section">
         <Container>
           <div className="section-head text-center">
-            <span className="kicker">Execution Framework</span>
+            <span className="kicker">How It Works</span>
             <h2 className="section-head__title">Our 4-Step Process</h2>
-            <p className="section-head__sub">How we manage your service requirements seamlessly.</p>
+            <p className="section-head__sub">A clear, step-by-step process from first contact to completed transaction.</p>
           </div>
           <SectionGrid columns={4}>
             {processSteps.map((p) => (

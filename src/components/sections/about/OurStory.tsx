@@ -1,4 +1,4 @@
-import Container from "@/components/shared/Container/Container";
+﻿import Container from "@/components/shared/Container/Container";
 import { contact } from "@/data/contact";
 
 export default function OurStory() {
@@ -13,10 +13,10 @@ export default function OurStory() {
               {contact.company} was founded on a simple belief: property
               investment should be transparent, structured, and accessible. Too
               many investors were being pushed into decisions by hype and
-              inflated claims — we chose a different path.
+              inflated claims , we chose a different path.
             </p>
             <p>
-              We connect investors — locally and overseas — with Pakistan&apos;s
+              We connect investors , locally and overseas , with Pakistan&apos;s
               most promising real estate projects through authorized
               partnerships with leading developers. Every recommendation is
               grounded in research, not rumours.

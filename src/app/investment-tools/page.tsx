@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Container from "@/components/shared/Container/Container";
 import SectionGrid from "@/components/shared/Section/SectionGrid";
 import ToolCard from "@/components/shared/Card/ToolCard";
@@ -22,7 +22,7 @@ export default function InvestmentToolsPage() {
             <h1 className="page-hero__title">Investment Tools</h1>
             <p className="page-hero__sub">
               Calculators and guides to help you plan your investment with
-              confidence. Results are indicative — verify final figures with
+              confidence. Results are indicative , verify final figures with
               our advisors.
             </p>
           </div>

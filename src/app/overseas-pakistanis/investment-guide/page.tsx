@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
@@ -7,7 +7,7 @@ import SectionGrid from "@/components/shared/Section/SectionGrid";
 export const metadata: Metadata = {
   title: "Overseas Investment Guide",
   description:
-    "A comprehensive step-by-step guide for overseas Pakistanis to invest in real estate remotely — from research to booking and beyond.",
+    "A comprehensive step-by-step guide for overseas Pakistanis to invest in real estate remotely , from research to booking and beyond.",
 };
 
 const steps = [
@@ -34,7 +34,7 @@ const steps = [
   {
     num: "05",
     title: "Complete the Booking",
-    desc: "Sign the booking form, submit your down payment and receive your official allocation letter. The entire process can be completed remotely — no need to visit Pakistan.",
+    desc: "Sign the booking form, submit your down payment and receive your official allocation letter. The entire process can be completed remotely , no need to visit Pakistan.",
   },
   {
     num: "06",
@@ -74,7 +74,7 @@ export default function InvestmentGuidePage() {
             <h1 className="page-hero__title">Overseas Investment Guide</h1>
             <p className="page-hero__sub">
               A complete roadmap for overseas Pakistanis to invest in real
-              estate remotely — from market research to booking and beyond.
+              estate remotely , from market research to booking and beyond.
             </p>
           </div>
         </Container>

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
@@ -7,21 +7,21 @@ import SectionGrid from "@/components/shared/Section/SectionGrid";
 export const metadata: Metadata = {
   title: "Power of Attorney Guide for Overseas Pakistanis",
   description:
-    "How overseas Pakistanis can use a Power of Attorney to manage property investments remotely — types, process, attestation and legal requirements.",
+    "How overseas Pakistanis can use a Power of Attorney to manage property investments remotely , types, process, attestation and legal requirements.",
 };
 
 const poaTypes = [
   {
     title: "General Power of Attorney (GPA)",
-    desc: "Grants broad authority to your representative to act on your behalf in property matters — including buying, selling, transferring and managing assets. Suitable for investors who want comprehensive remote management.",
+    desc: "Grants broad authority to your representative to act on your behalf in property matters , including buying, selling, transferring and managing assets. Suitable for investors who want comprehensive remote management.",
   },
   {
     title: "Special Power of Attorney (SPA)",
-    desc: "Grants specific, limited authority for a defined task — such as signing a single booking form or collecting documents. Ideal for one-time transactions where you want to restrict your representative's scope.",
+    desc: "Grants specific, limited authority for a defined task , such as signing a single booking form or collecting documents. Ideal for one-time transactions where you want to restrict your representative's scope.",
   },
   {
     title: "Irrevocable Power of Attorney",
-    desc: "Cannot be cancelled once executed. Used in specific legal and business contexts. Consult with a legal advisor before granting an irrevocable POA — it has significant legal implications.",
+    desc: "Cannot be cancelled once executed. Used in specific legal and business contexts. Consult with a legal advisor before granting an irrevocable POA , it has significant legal implications.",
   },
 ];
 
@@ -32,7 +32,7 @@ const processSteps = [
   },
   {
     title: "Visit the Pakistani Embassy",
-    desc: "Take the drafted POA to the nearest Pakistani embassy or consulate. The embassy staff will witness your signature and attest the document. Some embassies require an appointment — book in advance.",
+    desc: "Take the drafted POA to the nearest Pakistani embassy or consulate. The embassy staff will witness your signature and attest the document. Some embassies require an appointment , book in advance.",
   },
   {
     title: "Pay the Stamp Duty",
@@ -55,7 +55,7 @@ const processSteps = [
 const tips = [
   {
     title: "Choose Your Representative Carefully",
-    desc: "A POA grants significant power. Select someone you trust implicitly — a close family member, trusted friend or professional advisor. The representative should be based in the same city as your property investment.",
+    desc: "A POA grants significant power. Select someone you trust implicitly , a close family member, trusted friend or professional advisor. The representative should be based in the same city as your property investment.",
   },
   {
     title: "Specify the Scope Clearly",
@@ -63,7 +63,7 @@ const tips = [
   },
   {
     title: "Keep POA Updated",
-    desc: "If your circumstances change — new property, different representative, changed authority — update the POA immediately. An outdated POA can cause transaction delays or legal issues.",
+    desc: "If your circumstances change , new property, different representative, changed authority , update the POA immediately. An outdated POA can cause transaction delays or legal issues.",
   },
   {
     title: "Use a Lawyer",
@@ -83,7 +83,7 @@ export default function PowerOfAttorneyPage() {
             <h1 className="page-hero__title">Power of Attorney Guide</h1>
             <p className="page-hero__sub">
               Authorise a trusted person in Pakistan to manage your property
-              investments on your behalf — a complete guide to POA for overseas
+              investments on your behalf , a complete guide to POA for overseas
               investors.
             </p>
           </div>

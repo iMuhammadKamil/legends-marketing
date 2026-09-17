@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
@@ -7,7 +7,7 @@ import SectionGrid from "@/components/shared/Section/SectionGrid";
 export const metadata: Metadata = {
   title: "Documentation Requirements",
   description:
-    "Complete list of documents required for overseas Pakistanis to invest in property in Pakistan — CNIC, passport, NICOP, power of attorney and more.",
+    "Complete list of documents required for overseas Pakistanis to invest in property in Pakistan , CNIC, passport, NICOP, power of attorney and more.",
 };
 
 const requiredDocs = [
@@ -17,7 +17,7 @@ const requiredDocs = [
   },
   {
     title: "Passport Copy",
-    desc: "A clear scanned copy of your current passport — bio-data page. This is required for identity verification and for remittance documentation when transferring funds from abroad.",
+    desc: "A clear scanned copy of your current passport , bio-data page. This is required for identity verification and for remittance documentation when transferring funds from abroad.",
   },
   {
     title: "Passport-Size Photographs",
@@ -68,7 +68,7 @@ export default function DocumentationPage() {
             <h1 className="page-hero__title">Documentation Requirements</h1>
             <p className="page-hero__sub">
               Everything you need to prepare before investing in Pakistani real
-              estate — a complete checklist for overseas investors.
+              estate , a complete checklist for overseas investors.
             </p>
           </div>
         </Container>

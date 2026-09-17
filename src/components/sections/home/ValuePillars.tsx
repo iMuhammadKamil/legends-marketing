@@ -1,7 +1,11 @@
+"use client";
+
+import { ScrollReveal, StaggerReveal } from "@/components/shared/ScrollReveal/ScrollRevealComponents";
+
 const pillars = [
   {
     title: "Transparent Strategy",
-    desc: "Clear communication and honest guidance from day one. No hidden fees, no surprises — just straightforward advice tailored to your investment goals.",
+    desc: "Clear communication and honest guidance from day one. No hidden fees, no surprises, just straightforward advice tailored to your investment goals.",
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
@@ -34,71 +38,79 @@ export default function ValuePillars() {
   return (
     <section className="section">
       <div className="container">
-        <div className="section-head text-center">
-          <span className="kicker">Why Choose Us</span>
-          <h2 className="section-head__title">
-            A Trusted Investment Partner
-          </h2>
-          <p className="section-head__sub">
-            Legends Marketing specializes in connecting investors with
-            Pakistan&apos;s most promising real estate projects.
-          </p>
-        </div>
-        <div
-          style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(3, 1fr)",
-            gap: "2rem",
-          }}
+        <ScrollReveal>
+          <div className="section-head text-center">
+            <span className="kicker">Why Choose Us</span>
+            <h2 className="section-head__title">
+              A Trusted Investment Partner
+            </h2>
+            <p className="section-head__sub">
+              Legends Marketing specializes in connecting investors with
+              Pakistan&apos;s most promising real estate projects.
+            </p>
+          </div>
+        </ScrollReveal>
+        <StaggerReveal
+          childSelector=".card"
+          stagger={0.12}
+          start="top 80%"
         >
-          {pillars.map((p, i) => (
-            <div
-              key={p.title}
-              className="card mp-reveal"
-              style={{
-                padding: "2.5rem 2rem",
-                textAlign: "center",
-              }}
-            >
+          <div
+            style={{
+              display: "grid",
+              gridTemplateColumns: "repeat(3, 1fr)",
+              gap: "2rem",
+            }}
+          >
+            {pillars.map((p) => (
               <div
+                key={p.title}
+                className="card"
                 style={{
-                  width: "60px",
-                  height: "60px",
-                  borderRadius: "14px",
-                  background: "var(--charcoal)",
-                  display: "flex",
-                  alignItems: "center",
-                  justifyContent: "center",
-                  margin: "0 auto 1.2rem",
-                  color: "var(--gold)",
+                  padding: "2.5rem 2rem",
+                  textAlign: "center",
                 }}
               >
-                {p.icon}
+                <div
+                  style={{
+                    width: "60px",
+                    height: "60px",
+                    borderRadius: "14px",
+                    background: "var(--charcoal)",
+                    display: "flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    margin: "0 auto 1.2rem",
+                    color: "var(--gold)",
+                  }}
+                >
+                  {p.icon}
+                </div>
+                <h3
+                  style={{
+                    fontFamily: "var(--font-serif)",
+                    fontSize: "1.2rem",
+                    fontWeight: 600,
+                    marginBottom: "0.6rem",
+                    color: "var(--charcoal)",
+                  }}
+                >
+                  {p.title}
+                </h3>
+                <p
+                  style={{
+                    fontSize: "0.92rem",
+                    color: "var(--muted)",
+                    lineHeight: 1.65,
+                    margin: 0,
+                  }}
+                >
+                  {p.desc}
+                </p>
               </div>
-              <h3
-                style={{
-                  fontFamily: "var(--font-serif)",
-                  fontSize: "1.2rem",
-                  fontWeight: 600,
-                  marginBottom: "0.6rem",
-                  color: "var(--charcoal)",
-                }}
-              >
-                {p.title}
-              </h3>
-              <p
-                style={{
-                  fontSize: "0.92rem",
-                  color: "var(--muted)",
-                  lineHeight: 1.65,
-                  margin: 0,
-                }}
-              >
-                {p.desc}
-              </p>
-            </div>
-          ))}
-        </div>
+            ))}
+          </div>
+        </StaggerReveal>
       </div>
     </section>
   );

@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
 import SectionGrid from "@/components/shared/Section/SectionGrid";
@@ -19,22 +19,22 @@ const benefits = [
 
 const processSteps = [
   {
-    "step": "01",
+    "step": "Analyze",
     "title": "Requirement Analysis",
     "desc": "Identify optimal residential, commercial, or villa plot sizes."
   },
   {
-    "step": "02",
+    "step": "Select",
     "title": "Site Inspection & Verification",
     "desc": "On-ground survey of location, access roads, and development stage."
   },
   {
-    "step": "03",
+    "step": "Book",
     "title": "Official Application & Ledger Creation",
     "desc": "Direct registration with the developer with computerized receipts."
   },
   {
-    "step": "04",
+    "step": "Complete",
     "title": "Document Handover",
     "desc": "Dispatch of original allotment letters and membership certificates."
   }
@@ -47,7 +47,7 @@ export default function PropertyBuyingPage() {
         <Container>
           <div className="page-hero__inner">
             <span className="kicker" style={{ color: "var(--gold-light)" }}>
-              Investor Services &middot; Seamless Acquisition
+              Investor Services &middot; Trusted Guidance
             </span>
             <h1 className="page-hero__title">Property Buying Services</h1>
             <p className="page-hero__sub">
@@ -115,9 +115,9 @@ export default function PropertyBuyingPage() {
       <section className="section">
         <Container>
           <div className="section-head text-center">
-            <span className="kicker">Execution Framework</span>
+            <span className="kicker">How It Works</span>
             <h2 className="section-head__title">Our 4-Step Process</h2>
-            <p className="section-head__sub">How we manage your service requirements seamlessly.</p>
+            <p className="section-head__sub">A clear, step-by-step process from first contact to completed transaction.</p>
           </div>
           <SectionGrid columns={4}>
             {processSteps.map((p) => (

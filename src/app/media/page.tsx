@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Container from "@/components/shared/Container/Container";
 import SectionGrid from "@/components/shared/Section/SectionGrid";
@@ -54,7 +54,7 @@ export default function MediaPage() {
             <h1 className="page-hero__title">Media &amp; Updates</h1>
             <p className="page-hero__sub">
               News, blog, videos, project galleries, events and press coverage
-              — all in one place.
+              , all in one place.
             </p>
           </div>
         </Container>

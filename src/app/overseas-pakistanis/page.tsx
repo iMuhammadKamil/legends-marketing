@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
@@ -50,7 +50,7 @@ export default function OverseasPakistanisPage() {
             </span>
             <h1 className="page-hero__title">Invest in Pakistan, From Anywhere</h1>
             <p className="page-hero__sub">
-              Buy property in Pakistan without being there — dedicated overseas
+              Buy property in Pakistan without being there , dedicated overseas
               advisors, remote booking and complete documentation support.
             </p>
           </div>

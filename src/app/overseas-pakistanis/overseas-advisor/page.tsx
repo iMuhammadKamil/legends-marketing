@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Button from "@/components/shared/Button/Button";
 import Container from "@/components/shared/Container/Container";
@@ -7,7 +7,7 @@ import SectionGrid from "@/components/shared/Section/SectionGrid";
 export const metadata: Metadata = {
   title: "Overseas Investment Advisor",
   description:
-    "Get a dedicated overseas investment advisor from Legends Marketing — personalised guidance for overseas Pakistanis investing in property remotely.",
+    "Get a dedicated overseas investment advisor from Legends Marketing , personalised guidance for overseas Pakistanis investing in property remotely.",
 };
 
 const advisorServices = [
@@ -17,7 +17,7 @@ const advisorServices = [
   },
   {
     title: "Project Shortlisting",
-    desc: "Based on your investment criteria — budget, location preference, risk tolerance and timeline — your advisor curates a shortlist of the best-matching projects from our authorized portfolio.",
+    desc: "Based on your investment criteria , budget, location preference, risk tolerance and timeline , your advisor curates a shortlist of the best-matching projects from our authorized portfolio.",
   },
   {
     title: "Documentation Support",
@@ -25,7 +25,7 @@ const advisorServices = [
   },
   {
     title: "Remote Booking Management",
-    desc: "Your advisor handles the entire booking process — form completion, payment coordination, society liaison and allocation confirmation — all done remotely on your behalf.",
+    desc: "Your advisor handles the entire booking process , form completion, payment coordination, society liaison and allocation confirmation , all done remotely on your behalf.",
   },
   {
     title: "Payment Tracking",
@@ -40,7 +40,7 @@ const advisorServices = [
 const advantages = [
   {
     title: "Single Point of Contact",
-    desc: "One dedicated advisor who knows your investment inside out. No repeating your story to different people — your advisor handles everything.",
+    desc: "One dedicated advisor who knows your investment inside out. No repeating your story to different people , your advisor handles everything.",
   },
   {
     title: "Local Expertise, Global Access",
@@ -48,7 +48,7 @@ const advantages = [
   },
   {
     title: "Transparent Communication",
-    desc: "Regular updates, honest assessments and no hidden agendas. Your advisor's goal is the same as yours — maximising your return on investment.",
+    desc: "Regular updates, honest assessments and no hidden agendas. Your advisor's goal is the same as yours , maximising your return on investment.",
   },
   {
     title: "Multi-Project Management",
@@ -59,7 +59,7 @@ const advantages = [
 const process = [
   {
     title: "Initial Contact",
-    desc: "Reach out via phone, WhatsApp or our contact form. Share your basic investment criteria — budget, preferred city and timeline.",
+    desc: "Reach out via phone, WhatsApp or our contact form. Share your basic investment criteria , budget, preferred city and timeline.",
   },
   {
     title: "Advisor Assignment",
@@ -67,11 +67,11 @@ const process = [
   },
   {
     title: "Strategy Session",
-    desc: "Your advisor schedules a detailed consultation — via call or video — to understand your goals, risk profile and preferred investment approach.",
+    desc: "Your advisor schedules a detailed consultation , via call or video , to understand your goals, risk profile and preferred investment approach.",
   },
   {
     title: "Ongoing Partnership",
-    desc: "Your advisor remains your single point of contact for all property matters — from the first inquiry to long-term portfolio management.",
+    desc: "Your advisor remains your single point of contact for all property matters , from the first inquiry to long-term portfolio management.",
   },
 ];
 
@@ -87,7 +87,7 @@ export default function OverseasAdvisorPage() {
             <h1 className="page-hero__title">Your Overseas Investment Advisor</h1>
             <p className="page-hero__sub">
               A dedicated advisor who understands the unique challenges of
-              investing from abroad — and handles everything so you don&apos;t
+              investing from abroad , and handles everything so you don&apos;t
               have to.
             </p>
           </div>

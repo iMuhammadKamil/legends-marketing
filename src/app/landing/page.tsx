@@ -1,7 +1,8 @@
-import Link from "next/link";
+﻿import Link from "next/link";
 import Container from "@/components/shared/Container/Container";
 import Button from "@/components/shared/Button/Button";
 import SectionHeader from "@/components/shared/Section/SectionHeader";
+import LandingPageAnimations from "./LandingPageAnimations";
 import { getFeaturedProjects } from "@/data/projects";
 import { services } from "@/data/services";
 import { partners } from "@/data/partners";
@@ -20,6 +21,7 @@ export default function LandingPage() {
 
   return (
     <>
+      <LandingPageAnimations />
       {/* ===== HERO ===== */}
       <section className="landing-hero">
         <div
@@ -30,20 +32,19 @@ export default function LandingPage() {
         <div className="landing-hero__overlay" aria-hidden="true" />
         <Container>
           <div className="landing-hero__content">
-            <span className="landing-hero__kicker fade-up">
-              <span className="landing-hero__kicker-dot" aria-hidden="true" />
+            <span className="landing-hero__kicker">
               Real Estate Investment Consultancy
             </span>
-            <h1 className="landing-hero__title fade-up delay-1">
+            <h1 className="landing-hero__title">
               Turning Properties into <em>Profitable Opportunities</em>
             </h1>
-            <p className="landing-hero__desc fade-up delay-2">
+            <p className="landing-hero__desc">
               Pakistan&apos;s trusted real estate investment platform. We connect
               local and overseas investors with high-growth property
-              opportunities &mdash; backed by transparent, research-led advisory
+              opportunities, backed by transparent, research-led advisory
               from booking to after-sales.
             </p>
-            <div className="landing-hero__actions fade-up delay-3">
+            <div className="landing-hero__actions">
               <Button href="/projects" variant="gold" size="lg">
                 Explore Projects
               </Button>
@@ -51,7 +52,7 @@ export default function LandingPage() {
                 Book Free Consultation
               </Button>
             </div>
-            <div className="landing-hero__trust fade-up delay-3">
+            <div className="landing-hero__trust">
               <div className="landing-hero__trust-item">
                 <span className="landing-hero__trust-value">500+</span>
                 <span className="landing-hero__trust-label">Investors Served</span>
@@ -74,15 +75,15 @@ export default function LandingPage() {
 
         {/* Floating Stats Panel (Desktop) */}
         <div className="landing-hero__stats-panel" aria-hidden="true">
-          <div className="landing-stat-card fade-up delay-2">
+          <div className="landing-stat-card">
             <div className="landing-stat-card__value">50+</div>
             <div className="landing-stat-card__label">Partner Projects</div>
           </div>
-          <div className="landing-stat-card fade-up delay-3">
+          <div className="landing-stat-card">
             <div className="landing-stat-card__value">8</div>
             <div className="landing-stat-card__label">Investor Services</div>
           </div>
-          <div className="landing-stat-card fade-up delay-3">
+          <div className="landing-stat-card">
             <div className="landing-stat-card__value">24/7</div>
             <div className="landing-stat-card__label">WhatsApp Support</div>
           </div>
@@ -92,7 +93,7 @@ export default function LandingPage() {
       {/* ===== STATS BAND ===== */}
       <section className="section" style={{ paddingTop: "3rem", paddingBottom: "0" }}>
         <Container>
-          <div className="stats-band mp-reveal">
+          <div className="stats-band">
             <div className="stats-band__item">
               <div className="stats-band__value">7+</div>
               <div className="stats-band__label">Authorized Developers</div>
@@ -122,7 +123,7 @@ export default function LandingPage() {
             subtitle="A transparent, guided process from first consultation to profitable returns."
           />
           <div style={{ maxWidth: 720, margin: "0 auto" }}>
-            <div className="process-step mp-reveal">
+            <div className="process-step">
               <div className="process-step__number">01</div>
               <div className="process-step__content">
                 <h3>Free Consultation</h3>
@@ -133,18 +134,18 @@ export default function LandingPage() {
                 </p>
               </div>
             </div>
-            <div className="process-step mp-reveal">
+            <div className="process-step">
               <div className="process-step__number">02</div>
               <div className="process-step__content">
                 <h3>Project Selection</h3>
                 <p>
                   Receive a curated shortlist of verified projects with detailed
-                  analysis — location, developer track record, payment plans,
+                  analysis , location, developer track record, payment plans,
                   and growth potential.
                 </p>
               </div>
             </div>
-            <div className="process-step mp-reveal">
+            <div className="process-step">
               <div className="process-step__number">03</div>
               <div className="process-step__content">
                 <h3>Secure Booking</h3>
@@ -155,12 +156,12 @@ export default function LandingPage() {
                 </p>
               </div>
             </div>
-            <div className="process-step mp-reveal">
+            <div className="process-step">
               <div className="process-step__number">04</div>
               <div className="process-step__content">
                 <h3>Ongoing Support</h3>
                 <p>
-                  From development updates to resale assistance — your dedicated
+                  From development updates to resale assistance , your dedicated
                   advisor stays with you throughout the investment lifecycle.
                 </p>
               </div>
@@ -178,7 +179,7 @@ export default function LandingPage() {
             subtitle="Authorized partnerships with Pakistan's most trusted developers."
           />
           {topProject && (
-            <div className="project-highlight mp-reveal">
+            <div className="project-highlight">
               <div className="project-highlight__image">
                 <img
                   src={topProject.coverImage || topProject.masterPlan.imageUrl}
@@ -285,7 +286,7 @@ export default function LandingPage() {
           <SectionHeader
             kicker="Why Legends"
             title="Why 500+ Investors Trust Us"
-            subtitle="We don't sell properties — we build investment strategies."
+            subtitle="We don't sell properties , we build investment strategies."
           />
           <div
             style={{
@@ -303,7 +304,7 @@ export default function LandingPage() {
                   </svg>
                 ),
                 title: "Research-Led Advisory",
-                desc: "Every recommendation is backed by transparent market research — never hype or inflated claims.",
+                desc: "Every recommendation is backed by transparent market research , never hype or inflated claims.",
               },
               {
                 icon: (
@@ -325,7 +326,7 @@ export default function LandingPage() {
                   </svg>
                 ),
                 title: "Dedicated Advisor",
-                desc: "One advisor per client — from first consultation through booking, documentation and after-sales.",
+                desc: "One advisor per client , from first consultation through booking, documentation and after-sales.",
               },
               {
                 icon: (
@@ -336,10 +337,10 @@ export default function LandingPage() {
                   </svg>
                 ),
                 title: "Overseas Ready",
-                desc: "Complete remote investment support for overseas Pakistanis — from booking to power of attorney.",
+                desc: "Complete remote investment support for overseas Pakistanis , from booking to power of attorney.",
               },
             ].map((item) => (
-              <div key={item.title} className="feature-item mp-reveal">
+              <div key={item.title} className="feature-item">
                 <div className="feature-item__icon" aria-hidden="true">
                   {item.icon}
                 </div>
@@ -366,7 +367,7 @@ export default function LandingPage() {
               <Link
                 key={service.id}
                 href={service.href}
-                className="service-pill mp-reveal"
+                className="service-pill"
                 style={{ textDecoration: "none" }}
               >
                 <div className="service-pill__icon">
@@ -391,7 +392,7 @@ export default function LandingPage() {
       {/* ===== OVERSEAS PAKISTANIS ===== */}
       <section className="section">
         <Container>
-          <div className="overseas-banner mp-reveal">
+          <div className="overseas-banner">
             <div className="overseas-banner__content">
               <span className="overseas-banner__kicker">For Overseas Pakistanis</span>
               <h2 className="overseas-banner__title">
@@ -399,7 +400,7 @@ export default function LandingPage() {
               </h2>
               <p className="overseas-banner__desc">
                 We specialize in helping overseas Pakistanis invest in real estate
-                back home — with complete remote support from booking to possession.
+                back home , with complete remote support from booking to possession.
               </p>
               <div className="overseas-banner__list">
                 {[
@@ -445,28 +446,28 @@ export default function LandingPage() {
           <div className="testimonial-showcase">
             {[
               {
-                initials: "AK",
-                name: "Ahmed Khan",
-                role: "Investor, Bahria Town",
+                initials: "FA",
+                name: "Faraz Ali",
+                role: "First-time investor, Bahria Town Phase 4",
                 quote:
-                  "Legends Marketing provided exceptional guidance for my first real estate investment. The process was completely transparent and professional.",
+                  "I had zero experience with property investment. The team walked me through every step, from understanding payment plans to final documentation. No pressure, just clear guidance.",
               },
               {
-                initials: "SR",
-                name: "Sarah Rahman",
-                role: "Overseas Investor, Dubai",
+                initials: "NZ",
+                name: "Nadia Zubair",
+                role: "Overseas investor, Toronto",
                 quote:
-                  "As an overseas Pakistani, I was worried about investing back home. Legends made the entire process remote-friendly and hassle-free.",
+                  "Investing from Canada felt overwhelming until I found Legends. They handled everything remotely, from booking to power of attorney. I receive monthly updates without having to ask.",
               },
               {
-                initials: "MH",
-                name: "Muhammad Hassan",
-                role: "Property Investor, Islamabad",
+                initials: "KT",
+                name: "Kamran Tariq",
+                role: "Portfolio investor, Rawalpindi",
                 quote:
-                  "Their market research and project selection advice helped me make a profitable investment decision. Highly recommended for serious investors.",
+                  "I've worked with several property dealers before. What sets Legends apart is their market research. They showed me data before recommending any project. That transparency matters.",
               },
             ].map((t) => (
-              <div key={t.name} className="testimonial-card-lg mp-reveal">
+              <div key={t.name} className="testimonial-card-lg">
                 <div className="testimonial-card-lg__stars" aria-label="5 stars">
                   {[...Array(5)].map((_, i) => (
                     <svg key={i} width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -508,7 +509,7 @@ export default function LandingPage() {
             }}
           >
             {partners.map((partner) => (
-              <div key={partner.id} className="card partner-card mp-reveal">
+              <div key={partner.id} className="card partner-card">
                 <span className="partner-card__monogram" aria-hidden="true">
                   {partner.name
                     .split(" ")
@@ -531,7 +532,7 @@ export default function LandingPage() {
         <Container>
           <SectionHeader
             kicker="Investment Tools"
-            title="Smart Tools for Smart Investors"
+            title="Plan With Precision"
             subtitle="Free calculators and tools to help you make informed investment decisions."
           />
           <div
@@ -595,7 +596,7 @@ export default function LandingPage() {
               <Link
                 key={tool.title}
                 href={tool.href}
-                className="card mp-reveal"
+                className="card"
                 style={{
                   padding: "2rem 1.5rem",
                   textDecoration: "none",
@@ -634,14 +635,14 @@ export default function LandingPage() {
       {/* ===== FINAL CTA ===== */}
       <section className="section landing-cta">
         <Container>
-          <div className="landing-cta__inner mp-reveal">
+          <div className="landing-cta__inner">
             <span className="landing-cta__kicker">Ready to Invest?</span>
             <h2 className="landing-cta__title">
               Start Your Investment Journey Today
             </h2>
             <p className="landing-cta__desc">
               Speak with a certified investment advisor and discover the right
-              opportunity for your goals — with complete transparency and
+              opportunity for your goals , with complete transparency and
               dedicated support.
             </p>
             <div className="landing-cta__actions">

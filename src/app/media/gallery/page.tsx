@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Container from "@/components/shared/Container/Container";
 import SectionGrid from "@/components/shared/Section/SectionGrid";
@@ -6,42 +6,42 @@ import SectionGrid from "@/components/shared/Section/SectionGrid";
 export const metadata: Metadata = {
   title: "Project Gallery",
   description:
-    "Photo galleries of our featured real estate projects — progress updates, site photos, master plans and community events.",
+    "Photo galleries of our featured real estate projects , progress updates, site photos, master plans and community events.",
 };
 
 const albums = [
   {
-    title: "ParkView City — Aerial Views",
+    title: "ParkView City , Aerial Views",
     count: 24,
     slug: "parkview-city-aerial-views",
     image: "gallery-parkview.jpg",
   },
   {
-    title: "Blue World City — Construction Progress",
+    title: "Blue World City , Construction Progress",
     count: 18,
     slug: "blue-world-city-construction-progress",
     image: "gallery-blueworld.jpg",
   },
   {
-    title: "Capital Smart City — Master Plan Walkthrough",
+    title: "Capital Smart City , Master Plan Walkthrough",
     count: 12,
     slug: "capital-smart-city-master-plan-walkthrough",
     image: "gallery-capital.jpg",
   },
   {
-    title: "Faisal Town Phase 2 — Site Photos",
+    title: "Faisal Town Phase 2 , Site Photos",
     count: 15,
     slug: "faisal-town-phase-2-site-photos",
     image: "gallery-faisal.jpg",
   },
   {
-    title: "Saffron City — Community Event",
+    title: "Saffron City , Community Event",
     count: 20,
     slug: "saffron-city-community-event",
     image: "gallery-saffron.jpg",
   },
   {
-    title: "Premier Choice — Commercial Development",
+    title: "Premier Choice , Commercial Development",
     count: 10,
     slug: "premier-choice-commercial-development",
     image: "gallery-premier.jpg",
@@ -59,7 +59,7 @@ export default function GalleryListingPage() {
             </span>
             <h1 className="page-hero__title">Project Gallery</h1>
             <p className="page-hero__sub">
-              Browse photo albums from our featured projects — construction
+              Browse photo albums from our featured projects , construction
               updates, aerial views, master plans and event highlights.
             </p>
           </div>

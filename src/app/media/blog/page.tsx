@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Container from "@/components/shared/Container/Container";
 import SectionGrid from "@/components/shared/Section/SectionGrid";
@@ -22,7 +22,7 @@ const posts = [
   {
     title: "5 Mistakes Overseas Pakistanis Make When Buying Property",
     excerpt:
-      "From skipping due diligence to choosing the wrong advisor — avoid the most common pitfalls that cost overseas investors time and money.",
+      "From skipping due diligence to choosing the wrong advisor , avoid the most common pitfalls that cost overseas investors time and money.",
     date: "July 24, 2026",
     tag: "Overseas",
     slug: "5-mistakes-overseas-pakistanis-buying-property",
@@ -135,7 +135,7 @@ export default function BlogListingPage() {
             style={{ maxWidth: "600px", margin: "0 auto 1.5rem" }}
           >
             Get the latest blog posts and market insights delivered to your
-            inbox. No spam — just actionable real estate intelligence.
+            inbox. No spam , just actionable real estate intelligence.
           </p>
           <Link href="/contact" className="btn btn--emerald">
             Get in Touch

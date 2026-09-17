@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+﻿import type { Metadata } from "next";
 import Link from "next/link";
 import Container from "@/components/shared/Container/Container";
 import SectionGrid from "@/components/shared/Section/SectionGrid";
@@ -6,7 +6,7 @@ import SectionGrid from "@/components/shared/Section/SectionGrid";
 export const metadata: Metadata = {
   title: "Media News",
   description:
-    "Latest announcements, project updates and industry coverage from Legends Marketing — your source for real estate news in Islamabad and Rawalpindi.",
+    "Latest announcements, project updates and industry coverage from Legends Marketing , your source for real estate news in Islamabad and Rawalpindi.",
 };
 
 const articles = [
