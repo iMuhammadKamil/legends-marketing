@@ -520,3 +520,65 @@ Import trace for requested module:
 ./src/components/sections/projects/ProjectHero.tsx
 ./src/app/projects/[project-slug]/page.tsx
  GET /market-insights 500 in 1452ms
+ ⨯ ./src/components/sections/projects/ProjectHero.tsx
+Error: 
+  [31mx[0m Unexpected token `section`. Expected jsx identifier
+    ,-[[36;1;4mC:\Users\Admin\Desktop\legends marketing\src\components\sections\projects\ProjectHero.tsx[0m:8:1]
+ [2m 8[0m | export default function ProjectHero({ project }: ProjectHeroProps) {
+ [2m 9[0m |   const bgImage = project.coverImage || project.masterPlan.imageUrl;
+ [2m10[0m |   return (
+ [2m11[0m |     <section className="project-hero">
+    : [31;1m     ^^^^^^^[0m
+ [2m12[0m |       {/* Full-bleed background image */}
+ [2m13[0m |       <div
+ [2m14[0m |         className="project-hero__media"
+    `----
+
+Caused by:
+    Syntax Error
+
+Import trace for requested module:
+./src/components/sections/projects/ProjectHero.tsx
+./src/app/projects/[project-slug]/page.tsx
+ ✓ Compiled /market-insights in 2.4s (1003 modules)
+ GET / 200 in 527ms
+ GET /landing 200 in 142ms
+ ✓ Compiled /about in 471ms (485 modules)
+ GET /about 200 in 801ms
+ GET /projects 200 in 275ms
+ GET /contact 200 in 155ms
+ ○ Compiling /investor-services ...
+ ✓ Compiled /investor-services in 740ms (488 modules)
+ GET /investor-services 200 in 1007ms
+ ○ Compiling /overseas-pakistanis ...
+ ✓ Compiled /overseas-pakistanis in 551ms (490 modules)
+ GET /overseas-pakistanis 200 in 817ms
+ ○ Compiling /investment-tools ...
+ ✓ Compiled /investment-tools in 597ms (494 modules)
+ GET /investment-tools 200 in 858ms
+ ✓ Compiled /media in 508ms (496 modules)
+ GET /media 200 in 1142ms
+ ○ Compiling /market-insights ...
+ ✓ Compiled /market-insights in 715ms (498 modules)
+ GET /market-insights 200 in 990ms
+ ○ Compiling /investor-services/property-buying ...
+ ✓ Compiled /investor-services/property-buying in 1392ms (1006 modules)
+ GET /investor-services/property-buying 200 in 1557ms
+ ○ Compiling /investor-services/property-selling ...
+ ✓ Compiled /investor-services/property-selling in 1800ms (1008 modules)
+ GET /investor-services/property-selling 200 in 2043ms
+ ○ Compiling /overseas-pakistanis/why-invest ...
+ ✓ Compiled /overseas-pakistanis/why-invest in 1683ms (1010 modules)
+ GET /overseas-pakistanis/why-invest 200 in 1857ms
+ ○ Compiling /overseas-pakistanis/remote-booking ...
+ ✓ Compiled /overseas-pakistanis/remote-booking in 1063ms (1012 modules)
+ GET /overseas-pakistanis/remote-booking 200 in 1273ms
+ ○ Compiling /about/our-story ...
+ ✓ Compiled /about/our-story in 1841ms (1014 modules)
+ GET /about/our-story 200 in 1997ms
+ ○ Compiling /about/our-values ...
+ ✓ Compiled /about/our-values in 1339ms (1016 modules)
+ GET /about/our-values 200 in 1522ms
+ GET / 200 in 200ms
+ GET /landing 200 in 201ms
+ GET /landing 200 in 281ms
